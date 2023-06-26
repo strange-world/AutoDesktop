@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MainApp",
+            "request": "launch",
+            "mainClass": "MainApp",
+            "projectName": "OpenWindows_e52e008d"
+        },
+        {
+            "type": "java",
+            "name": "ScreenApplication",
+            "request": "launch",
+            "mainClass": "ScreenApplication",
+            "projectName": "OpenWindows_e52e008d"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/el030/OneDrive/Desktop/JavaFXlibrary/javafx-sdk-21-ea/javafx-sdk-21/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "App",
+            "projectName": "OpenWindows_e52e008d"
+        }
+    ]
+  }
+  
