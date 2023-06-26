@@ -8,12 +8,12 @@
 
 The overall flow of the program is as follows:
 
-The App class is launched, which creates a new instance of ScreenApplicationManager and calls its showScreenApplications method.
+1. The App class is launched, which creates a new instance of ScreenApplicationManager and calls its showScreenApplications method.
 
-The ScreenApplicationManager class retrieves a list of screens and creates a ScreenApplication for each screen, passing the corresponding screen and device number.
+2. The ScreenApplicationManager class retrieves a list of screens and creates a ScreenApplication for each screen, passing the corresponding screen and device number.
 
-The ScreenApplication class creates a stage for each screen, sets up the UI elements (device number, button, and message text), and defines the button's action to toggle the visibility of the message text.
+3. The ScreenApplication class creates a stage for each screen, sets up the UI elements (device number, button, and message text), and defines the button's action to toggle the visibility of the message text.
 
-When the program is run, each screen's application is shown, displaying the device number and a button to toggle the visibility of the message text.
+4. When the program is run, each screen's application is shown, displaying the device number and a button to toggle the visibility of the message text.
 
 Please ensure that you have Java and the JavaFX SDK properly installed, and set up the CLASSPATH environment variable to include the JavaFX libraries. This will allow the program to compile and run successfully.
