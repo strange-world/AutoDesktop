@@ -1,3 +1,4 @@
+Testing
 1. App.java: This is the entry point of the application. It extends the Application class from JavaFX and defines the start method, which is called when the application is launched. It sets up the main stage and invokes the showScreenApplications method from the ScreenApplicationManager class.
 
 2. ScreenApplication.java: This class represents an individual screen application. It takes a Screen object and a device number as parameters. It creates a stage for the screen, sets its properties, and creates a root layout (a VBox) containing the display device number, a button, and the message text. The button toggles the visibility of the message text. The screen application can be shown by calling the show method.
